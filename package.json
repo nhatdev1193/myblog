@@ -1,0 +1,15 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "Personal blog that is created by Sin",
+  "main": "app.js",
+  "repository": "git@github.com:nhatdev1193/myblog.git",
+  "author": "Sin",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.26.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.19.0",
+    "express": "^4.15.3"
+  }
+}
