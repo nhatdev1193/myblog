@@ -1,5 +1,8 @@
 {
     "extends": "google",
+    "rules": {
+      "indent": ["error",2]
+    },
     "parserOptions": {
         "ecmaVersion": 6,
         "ecmaFeatures": {
