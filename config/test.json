@@ -1,0 +1,11 @@
+{
+  "myblog": {
+    "dbConfig": {
+      "host": "localhost",
+      "user-name": "sin",
+      "password": "1",
+      "port": 5432,
+      "dbName": "myblog-test"
+    }
+  }
+}
