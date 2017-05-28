@@ -3,7 +3,7 @@ const env = process.env.NODE_ENV;
 
 /**
  * Add one callback function
- * @param {function} callback he function what will check error in terminal.
+ * @param {function} callback the function that will check error in terminal.
  */
 function checkEnv(callback) {
     if(env == 'test') {
