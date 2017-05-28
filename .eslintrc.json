@@ -1,12 +1,15 @@
 {
-    "extends": "google",
-    "rules": {
-      "indent": ["error",2]
-    },
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "ecmaFeatures": {
-            "jsx": true
-        }
+  "extends": "google",
+  "plugins": [
+    "json"
+  ],
+  "rules": {
+    "indent": ["error",2]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
     }
+  }
 }
