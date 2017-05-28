@@ -1,3 +1,3 @@
-const repl = require('repl')
+const repl = require('repl');
 
 repl.start('> ');

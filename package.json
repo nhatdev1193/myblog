@@ -6,6 +6,10 @@
   "repository": "git@github.com:nhatdev1193/myblog.git",
   "author": "Sin",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore"
+  },
+  "pre-commit": [ "lint" ],
   "dependencies": {
     "body-parser": "^1.17.2",
     "config": "^1.26.1",
@@ -13,7 +17,8 @@
     "eslint": "^3.19.0",
     "express": "^4.15.3",
     "morgan": "^1.8.2",
-    "pg": "^6.2.3"
+    "pg": "^6.2.3",
+    "pre-commit": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
